@@ -1,7 +1,6 @@
 import "./App.css";
 import logo from "./assets/imagenes/stock-photo-cup.jpeg";
-import Tarea from "./components/Tarea";
-import TareaFormulario from "./components/TareaFormulario";
+import ListaDeTareas from "./components/ListaDeTareas";
 
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
       </div>
       <div className="tareas-lista-principal">
         <h1>Mis tareas</h1>
-       <TareaFormulario />
+        <ListaDeTareas />
       </div>
     </div>
   );
