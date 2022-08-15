@@ -33,7 +33,7 @@
 /* Tarea completada */
 
 .tarea-contenedor.completada{
-    background-color: #5a01a7;
+    background-color: #5a01a7 !important;
 }
 
 .tarea-contenedor:nth-child(3n+1){
