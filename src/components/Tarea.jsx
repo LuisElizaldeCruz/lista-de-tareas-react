@@ -16,6 +16,6 @@ const Tarea = ({ id, texto, completada, completarTarea, eliminarTarea }) => {
             </div>
         </div>
     );
-}
+};
 
 export default Tarea;
